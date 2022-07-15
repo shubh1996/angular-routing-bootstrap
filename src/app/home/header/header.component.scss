@@ -1,0 +1,23 @@
+@import "../../common/variables.scss";
+
+.shell-header {
+  height: $header-height;
+  overflow: hidden;
+  box-shadow: 0 1.5px 5px #ccc;
+}
+
+.logo {
+  &-design {
+    height: $header-height;
+  }
+  &-name {
+    font-size: 2rem;
+    vertical-align: middle;
+    padding: 0.75rem;
+  }
+}
+
+.icon-design {
+  height: 4vh;
+  margin-right: 2vw;
+}
